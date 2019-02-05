@@ -14,7 +14,7 @@ namespace AuthenticationSchemeDemo.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Access granted");
+            return View();
         }
 
         public IActionResult Privacy()
