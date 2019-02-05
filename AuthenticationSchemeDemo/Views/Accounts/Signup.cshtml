@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Signup";
+}
+
+<h1>Signup</h1>
+
+<form asp-action="Signup" asp-controller="Accounts" method="post">
+    <input name="username" placeholder="username" />
+    <input name="password" placeholder="password" />
+    <input type="submit" value="Signup" />
+</form>
